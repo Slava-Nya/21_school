@@ -1,0 +1,4 @@
+tail -f /var/log/syslog &
+
+# flag -f for update info for new strings in file
+# for background working

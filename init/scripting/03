@@ -1,0 +1,3 @@
+ITY=$1
+curl wttr.in/$CITY?format=3 ;
+TZ=$CITY date | awk '{print $4" " $1" " $3" "$2" " $6}'

@@ -1,0 +1,6 @@
+# Graphicak connect ->
+# Put your login and password in the authorization window
+
+# SSSH connecr ->
+# ssh <user>@<ip> -p<port> 
+# -> password

@@ -1,0 +1,4 @@
+broad=`ifconfig en0 | grep "inet " | awk '{print $6}'`
+echo $broad
+ping -t 3 $broad | arp -a | grep "21" | cut -d "(" -f 2 | cut -d ")" -f 1
+

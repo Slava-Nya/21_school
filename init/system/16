@@ -1,0 +1,3 @@
+ccrontab -e
+# -e flag using for crontab file edit
+# config file view : Mim Hour Month DayOfWeek CommandFile >> OutputFile 
